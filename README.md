@@ -30,4 +30,4 @@ Cada carpeta es un proyecto de NetBeans independiente: abrirlo con **File → Op
 ---
 
 Hecho por **Santiago Elian Vazquez**, estudiante de la Tecnicatura Superior en Desarrollo de Software (ISFT 225).
-[Portfolio](https://santiago-vazquez-portfolio.vercel.app) · [LinkedIn](https://www.linkedin.com/in/santiago-vazquez-b266b3374/)
+[Portfolio](https://santiago-vazquez-portfolio.vercel.app) · [LinkedIn](https://www.linkedin.com/in/santiagoelianvazquez/)
