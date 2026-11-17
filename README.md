@@ -1,31 +1,35 @@
 # Práctica de Java — fundamentos y POO
 
-34 proyectos cortos en Java (NetBeans) que fui resolviendo para practicar desde lo básico hasta programación orientada a objetos e interfaces gráficas con Swing.
+46 proyectos cortos en Java (NetBeans) que fui resolviendo para practicar desde lo básico hasta programación orientada a objetos, colecciones, genéricos, hilos e interfaces gráficas con Swing.
 
 ## Qué hay adentro
 
 | Tema | Proyectos |
 | --- | --- |
-| Fundamentos | `EjercicioIf`, `Ejercicio Switch`, `OperadorTernario`, `EjercicioFor`, `EjercicioWhile`, `EjercicioDoWhile`, `ErrorDesbordamiento`, `Ejercicio1` a `Ejercicio5` |
+| Fundamentos | `EjercicioIf`, `Ejercicio Switch`, `OperadorTernario`, `EjercicioFor`, `EjercicioWhile`, `EjercicioDoWhile`, `ErrorDesbordamiento`, `Conversiones`, `Ejercicio1` a `Ejercicio5` |
 | Vectores y matrices | `EjercicioVectores`, `Ejercicio1Vector` a `Ejercicio5Vector`, `EjercicioMatrices` |
-| Programación orientada a objetos | `POO`, `Encapsulamiento`, `Herencia`, `ClasesAbstractas`, `Interfaces`, `Sobreescritura`, `SobreescrituraYSobrecarga` |
-| Colecciones | `ArrayLists`, `LinkedLists` |
-| Integradores | `EjercicioIntegradorBasico`, `EjercicioIntegradorPOO`, `EjercicioMerceria`, `EjercicioEnglishSchool` |
+| Programación orientada a objetos | `POO`, `Encapsulamiento`, `Herencia`, `ClasesAbstractas`, `Interfaces`, `Sobreescritura`, `SobreescrituraYSobrecarga`, `Relaciones`, `Enums` |
+| Colecciones | `ArrayLists`, `LinkedLists`, `ArrayList_vs_LinkedList`, `HashMap`, `Pilas` |
+| Temas avanzados | `Genericos`, `Excepciones`, `HilosYConcurrencia` |
+| Integradores | `EjercicioIntegradorBasico`, `EjercicioIntegradorPOO`, `EjercicioIntegradorPOO_VideoJuegos`, `EjercicioIntegradorPOO_Vivero`, `EjercicioMerceria`, `EjercicioEnglishSchool` |
 | Interfaces gráficas (Swing) | `EjercicioIGU`, `TPIntegradorFinal` |
+| Herramientas | `PruebaMaven` (primer proyecto con Maven) |
 
 Algunos para mirar primero:
 
 - **`EjercicioIntegradorPOO`**: jerarquía de clases con una clase abstracta `Pokemon`, subclases y una interfaz por tipo (`IAgua`, `IFuego`, `IPlanta`, `IElectrico`). Herencia, interfaces y polimorfismo en un mismo ejercicio.
 - **`TPIntegradorFinal`**: app de escritorio en Swing para hacer sorteos por mes, con formulario, validación de datos y tabla de ganadores (`JTable`). Separa la interfaz (`igu`) de la lógica (`logica`).
-- **`ClasesAbstractas`**: `Figura` abstracta con `Circulo` y `Cuadrado` que implementan su propio cálculo.
+- **`EjercicioIntegradorPOO_Vivero`**: clase abstracta `Planta` con `Arbol`, `Flor` y `Arbusto`, cada una con su propia implementación de un método abstracto.
+- **`Relaciones`**: relación uno a muchos entre `Auto` y `Propietario` usando una lista.
+- **`Genericos`** e **`HilosYConcurrencia`**: una clase genérica `Caja<T>`, y hilos creados de las dos formas (`extends Thread` e `implements Runnable`).
 
 ## Tecnologías
 
-Java · Swing · NetBeans (Ant)
+Java · Swing · NetBeans (Ant) · Maven
 
 ## Cómo correrlos
 
-Cada carpeta es un proyecto de NetBeans independiente: abrirlo con **File → Open Project** y ejecutarlo con **Run**.
+Cada carpeta es un proyecto de NetBeans independiente: abrirlo con **File → Open Project** y ejecutarlo con **Run**. `PruebaMaven` también se puede abrir desde cualquier IDE que lea el `pom.xml`.
 
 ---
 
